@@ -130,8 +130,8 @@ class CityMap {
     }
 
     initChart() {
-        const width = 500,
-            height = 500,
+        const width = 400,
+            height = 400,
             margin = 20
         // The radius of the pieplot is half the width or half the height (smallest one). I subtract a bit of margin.
         const radius = Math.min(width, height) / 2 - margin

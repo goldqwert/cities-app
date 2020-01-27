@@ -10,22 +10,6 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://d3js.org/d3.v4.js"></script>
     <style>
-        .cities-wrapper {
-            display: flex;
-            align-items: center;
-            height: 100vh;
-        }
-
-        .cities-row {
-            width: 100%;
-        }
-
-        .form {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
         .add-city-button {
             margin: 15px;
         }
@@ -37,7 +21,7 @@
         <div class="row cities-row">
             <div class="col-sm">
                 <div class="input-group mb-3">
-                    <input placeholder="Enter city name" id="search-input" type="text" class="form-control"
+                    <input placeholder="Enter city name" id="search-input" type="text" class="form-control margin20"
                         aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                 </div>
                 <table class="table table-hover" id="table">
@@ -72,7 +56,7 @@
                     <button type="button" class="btn btn-outline-dark save-cities">Save cities</button>
                 </form>
             </div>
-            <div class="col-sm" id="donut">
+            <div class="col-sm text-center" id="donut">
                 <h2 class="text-center">Population chart</h2>
             </div>
         </div>
